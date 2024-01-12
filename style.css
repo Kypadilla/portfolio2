@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: azure;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+.Button{
+    background-color: red;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: transform .4s;
+    border-radius: 25%;
+}
+.Button:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: azure;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.About{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.About img{
+    height: auto;
+    width: 430px;
+}
+.about-me{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me h2{
+    color: azure;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-me h5{
+    color: azure;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-me  p{
+    color: azure;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-style: italic;
+}
+button{
+    background-color: red;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
